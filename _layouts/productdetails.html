@@ -18,7 +18,7 @@ head:
       data-item-image="{{ page.image }}"
       data-item-url="{{ site.baseurl }}"
       data-item-price="{{ page.price }}">
-      Buy it for {{ page.price }} $
+      Add to cart ($21.50)
     </button>
   </div>
 </div>
@@ -41,7 +41,7 @@ head:
         oninput="result.value=parseInt(this['fields[review]'].value)">
     <input name="fields[product]" type="hidden" value="{{ page.slug }}" />
     <input name="options[redirect]" type="hidden" value="{{site.url}}{{site.baseurl}}{{ page.url }}" />
-    
+
     <h4>Add a review</h4>
     <p><label>Your name: <input type="text" name="fields[name]" /></label></p>
     <p><label>Review: <input type="range" id="fields-review" name="fields[review]" min="0" max="5" step="0.1" value="5" /></label><output for="fields-review" name="result">5</output>/5</p>
