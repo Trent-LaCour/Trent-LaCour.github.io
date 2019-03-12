@@ -1,11 +1,11 @@
 # Site settings
-title: Jekyll shop powered by Snipcart
-email: geeks@snipcart.com
-description: Here's a quick demo showing the integration between Snipcart and Jekyll. We hope you like it!
+title: kiiBoss
+email: trent@kiiboss.studio
+description: Copyright 2019
 #url: "https://kiiboss.studio" # the base hostname & protocol for your site
 twitter_username: Snipcart
 github_username:  Snipcart
-api_key: YjdiNWIyOTUtZTIyMy00MWMwLTkwNDUtMzI1M2M2NTgxYjE0
+api_key: YjcxNTI4Y2MtZGUyOC00YjdjLWE3ZTYtNTMwNTgyMzA2M2QwNjM2ODc5NTEzMzg1NTM4OTcy
 
 # Build settings
 markdown: kramdown
