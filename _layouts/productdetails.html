@@ -4,22 +4,27 @@ head:
   snipcart.html
 ---
 <div class="product-details">
-  <img src="{{ page.image }}" alt="{{ page.name }}" height="500" width="400"/>
-  <div class="product-description">
-    <p><b>{{ page.name }}</b></p>
+  <div>
+    <img src="{{ page.image2 }}" height="100%" width="100%"/>
+  </div>
+  <div>
+    <img src="{{ page.image }}" alt="{{ page.name }}" height="500" width="400"/>
+    <div class="product-description">
+      <p><b>{{ page.name }}</b></p>
 
-    <p>
-      {{ page.content }}
-    </p>
+      <p>
+        {{ page.content }}
+      </p>
 
-    <button class="snipcart-add-item"
-      data-item-name="{{ page.name }}"
-      data-item-id="{{ page.sku }}"
-      data-item-image="{{ page.image }}"
-      data-item-url="products/{{ site.baseurl }}"
-      data-item-price="{{ page.price }}">
-      Add to cart (${{ page.price }})
-    </button>
+      <button class="snipcart-add-item"
+        data-item-name="{{ page.name }}"
+        data-item-id="{{ page.sku }}"
+        data-item-image="{{ page.image }}"
+        data-item-url="products/{{ site.baseurl }}"
+        data-item-price="{{ page.price }}">
+        Add to cart (${{ page.price }})
+      </button>
+    </div>
   </div>
 </div>
 <!--<div class="product-reviews">
