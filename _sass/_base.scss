@@ -39,6 +39,13 @@ dl, dd, ol, ul, figure {
 
 .product-details, .product-reviews{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-bigimage{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
