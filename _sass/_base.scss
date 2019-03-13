@@ -39,7 +39,7 @@ dl, dd, ol, ul, figure {
 
 .product-details, .product-reviews{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
