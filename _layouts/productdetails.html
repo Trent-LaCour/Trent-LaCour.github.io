@@ -8,7 +8,6 @@ head:
   <img src="{{ page.image2 }}" height="100%" width="100%"/>
 </div>
 <div class="product-details">
-  <div>
     <img src="{{ page.image }}" alt="{{ page.name }}" height="500" width="400"/>
     <div class="product-description">
       <p><b>{{ page.name }}</b></p>
@@ -26,7 +25,6 @@ head:
         Add to cart (${{ page.price }})
       </button>
     </div>
-  </div>
 </div>
 <!--<div class="product-reviews">
   {% assign reviews = site.data.reviews | where:'product',page.slug %}
