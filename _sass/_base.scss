@@ -55,6 +55,21 @@ dl, dd, ol, ul, figure {
   margin-bottom: 100px;
 }
 
+.product-bigimage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.product-image{
+  max-width:800px;
+  width:100%;
+  height:auto;
+}
+
 @media (max-width: 1000px) {
 
 
@@ -72,21 +87,14 @@ dl, dd, ol, ul, figure {
   width:100%;
   height:auto;
 }
-}
 
-.product-bigimage{
+.product-details, .product-reviews{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   margin-bottom: 100px;
 }
-
-.product-image{
-  max-width:800px;
-  width:100%;
-  height:auto;
 }
 
 .product-reviews{
