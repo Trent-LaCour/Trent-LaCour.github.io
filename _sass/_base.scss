@@ -86,10 +86,13 @@ dl, dd, ol, ul, figure {
 
 .product{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 35px;
+  max-width:480px;
+  width:100%;
+  height:auto;
 }
 
 .product:hover{
