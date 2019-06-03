@@ -43,16 +43,17 @@ dl, dd, ol, ul, figure {
   margin: 25px;
   //background-color: #CFD8DC;
   font-size: 20px;
-  align-items: center;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .text-details{
   max-width: 400px;
   padding: 25px;
-  margin: 25px;
+  margin: auto;
   font-size: 20px;
   align-items: center;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .product-details, .product-reviews{
