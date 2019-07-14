@@ -75,7 +75,7 @@ dl, dd, ol, ul, figure {
 }
 
 .product-image{
-  max-width:800px;
+  max-width:500px;
   //height:100%;
   height:auto;
   object-fit: scale-down;
@@ -116,12 +116,6 @@ dl, dd, ol, ul, figure {
   align-items: center;
   margin-top: 50px;
   margin-bottom: 100px;
-}
-
-.product-image{
-  max-width:500px;
-  //width:100%;
-  height:auto;
 }
 
 
