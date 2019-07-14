@@ -71,23 +71,27 @@ dl, dd, ol, ul, figure {
   align-items: center;
   margin-top: 50px;
   margin-bottom: 100px;
+  object-fit: scale-down;
 }
 
 .product-image{
   max-width:800px;
   width:100%;
   height:auto;
+  object-fit: scale-down;
 }
 .product-image2{
   max-width:480px;
   width:100%;
   height:auto;
+  object-fit: scale-down;
 }
 
 .product-image3{
   max-width:360px;
   width:100%;
   height:auto;
+  object-fit: scale-down;
 }
 
 .product{
